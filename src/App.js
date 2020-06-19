@@ -3,6 +3,7 @@ import React from 'react';
 import Cards from './components/Cards/Cards';
 import Chart from './components/Chart/Chart';
 import CountryPicker from './components/CountryPicker/CountryPicker';
+import CopyRights from './components/copyrights';
 
 import Styles from './App.module.css';
 
@@ -43,6 +44,7 @@ class App extends React.Component{
 
                 {console.log(this.state.data)}
                 
+                <CopyRights/>
                 
             </div>
         );
